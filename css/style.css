@@ -1,0 +1,60 @@
+body
+{
+    background: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+}
+
+a
+{
+    text-decoration: none;
+    color: #DF0101;
+}
+
+#main
+{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    width: 900px/* 480 + 300 */;
+}
+
+#login
+{
+    float: right;
+}
+
+#login h1, #login h3
+{
+    font-family: monospace;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#login h1
+{
+    margin-top: 100px;
+    margin-bottom: 2px;
+    font-size: 27px;
+}
+
+#login h3
+{
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.small
+{
+    text-align: center;
+    font-size: 9px;
+    font-style: italic;
+}
+
+.small a
+{
+    color: grey;
+    font-size: 9px;
+    font-style: italic;
+}
