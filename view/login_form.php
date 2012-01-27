@@ -58,7 +58,7 @@ function	view_login_form($err)
           </div>
 	</form>
        </div>
-      <img src="img/logo_home.png" />';
+      <img src="img/interface/logo_home.png" />';
   return (false);
 }
 
