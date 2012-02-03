@@ -12,7 +12,7 @@ class			Portal
   public function	__construct()
   {
     $this->view = new View;
-    $this->view->view('header');
+    $this->view->view('header_http');
 
     if (!isset($_SESSION['login']))
       $this->login = new Login;
@@ -23,6 +23,13 @@ class			Portal
   public function	__destruct()
   {
     $_SESSION['login'] = serialize($this->login);
+    $this->view->view('footer_http');
+  }
+
+  private function	homepage()
+  {
+    $this->view->view('header');
+    $this->view->view('home');
     $this->view->view('footer');
   }
 
@@ -31,7 +38,7 @@ class			Portal
     $err = ($this->login->isLog() ? $this->login->logOutValidForm() : $this->login->logInValidForm());
     if (!$this->login->isLog())
       return ($this->view->view('login_form', $err));
-    $this->view->view('logout_form');
+    $this->homepage();
     return (true);
   }
 

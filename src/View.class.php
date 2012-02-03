@@ -7,7 +7,10 @@ class			View
 {
   var $views = array(
 		     'header'		=> view_header,
+		     'header_http'	=> view_header_http,
 		     'footer'		=> view_footer,
+		     'footer_http'	=> view_footer_http,
+		     'home'		=> view_home,
 		     'login_form'	=> view_login_form,
 		     'logout_form'	=> view_logout_form
 		     );

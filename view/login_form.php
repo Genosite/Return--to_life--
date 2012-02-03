@@ -2,7 +2,8 @@
 
 function	view_login_form($err)
 {
-  echo '<div id="login">
+  echo '<div id="main_login">
+        <div id="login">
 	<h1>return (to_life);</h1>
 	<h3>/* Le Portail des &Eacute;tudiants */</h3>
 	<form method="post"> ';
@@ -58,7 +59,8 @@ function	view_login_form($err)
           </div>
 	</form>
        </div>
-      <img src="img/interface/logo_home.png" />';
+      <img src="img/interface/logo_home.png" />
+      </div>';
   return (false);
 }
 
