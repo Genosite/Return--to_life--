@@ -28,6 +28,11 @@ class			Portal
 
   private function	homepage()
   {
+	if (isset($_GET['logout']))
+	{
+		$this->login->logOutValidForm();
+		return ($this->view->view('login_form', $err));
+	}
     $this->view->view('header');
     $this->view->view('home');
     $this->view->view('footer');

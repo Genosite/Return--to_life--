@@ -10,7 +10,7 @@ function	view_footer($args)
 		    'Contact'  => '#',
 		    'Participer'  => '#',
 		    'Mon compte'  => '#',
-		    'D&eacute;connection'  => '#',
+		    'D&eacute;connection'  => '?logout',
 		    );
 
    $colors = array('grey', 'green', 'blue', 'orange');

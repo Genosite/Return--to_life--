@@ -4,8 +4,8 @@
   // $ wget "https://raw.github.com/db0company/Ionis-Users-Informations/master/ionisinfosql.class.php"
 $ionisusersinformations_path = 'ionisinfosql.class.php';
 
-$mysql_login = 'foo';
-$mysql_pass = 'bar';
+$mysql_login = 'genosite';
+$mysql_pass = 'azer123';
 
   // You must create it if it does not exists.
 $mysql_dbname = 'Return';

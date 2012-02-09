@@ -6,7 +6,7 @@ function	view_login_form($err)
         <div id="login">
 	<h1>return (to_life);</h1>
 	<h3>/* Le Portail des &Eacute;tudiants */</h3>
-	<form method="post"> ';
+	<form action="?login" method="post"> ';
   if ($err == 'err_login')
     {
       echo '  <div class="clearfix error">
