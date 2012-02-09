@@ -28,3 +28,5 @@ function	view_footer($args)
 </div>';
 
 }
+
+?>

@@ -18,3 +18,5 @@ function	view_header_http($args)
   <body> 
     <div id="main">';
 }
+
+?>

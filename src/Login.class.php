@@ -17,6 +17,7 @@ class			Login
   {
     global		$users;
 
+	print_r($users);
     if (empty($login)
 	|| !$users->isLogin($login))
       return ('err_login');

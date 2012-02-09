@@ -82,3 +82,5 @@ function	view_home($args)
     }
   echo '</div>';
 }
+
+?>

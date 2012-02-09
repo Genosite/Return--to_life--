@@ -31,3 +31,5 @@ function	view_header($args)
      </div>
    </a>';
 }
+
+?>

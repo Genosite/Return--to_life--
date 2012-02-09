@@ -8,4 +8,4 @@ session_start();
 
 $portal = new Portal;
 $portal->run();
-
+?>

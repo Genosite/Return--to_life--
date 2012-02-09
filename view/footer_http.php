@@ -6,3 +6,5 @@ function	view_footer_http($args)
   </body>
 </html>';
 }
+
+?>
